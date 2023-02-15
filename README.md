@@ -1,2 +1,3 @@
-# fyp-pedestrian-detection
-## This is my Final Year Project on Pedestrian Detection
+# Final Year Project - Pedestrian Detection
+#### Repo Name: fyp-pedestrian-detection
+#### Dataset Used: Penn Fudan Dataset
