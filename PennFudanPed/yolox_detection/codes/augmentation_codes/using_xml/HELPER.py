@@ -16,6 +16,15 @@ IMAGES = os.path.join(PARENT, 'images')
 #contains the augmented .jpg images
 AUGMENTED_IMAGES = os.path.join(PARENT, 'augmented_images')
 
+#contains the augmented annotations .xml
+AUGMENTED_ANNOTATIONS = os.path.join(PARENT, 'augmented_annotations')
+
+#combined images -> images + augmented images
+FINAL_IMAGES = os.path.join(PARENT, 'final_images')
+
+#combined annotations -> annotations + augmented annotations
+FINAL_ANNOTATIONS = os.path.join(PARENT, 'final_annotations')
+
 #SUB FOLDERS
 AUGMENTATION_CODES = os.path.join(CODES, 'augmentation_codes')
 USING_XML = os.path.join(AUGMENTATION_CODES, 'using_xml')

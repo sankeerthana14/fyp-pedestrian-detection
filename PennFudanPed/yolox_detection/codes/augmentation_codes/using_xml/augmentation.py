@@ -60,5 +60,3 @@ for image, iou in iou_dict.items():
             image_path = os.path.join(HELPER.IMAGES, str(image[:-4]+'.jpg'))
             BLACK_OUT.black_out(image_path, preds[0], preds[1], preds[2], preds[3], counter)
             counter += 1
-
-#duplicating the .xml files to have the same name as the augmented_images
