@@ -10,5 +10,9 @@ Through our evaluation of Blackout, it can be concluded that Blackout implemente
 Therefore, Blackout can prove to be extremely useful in cases where we would want to force the model to learn from the outlines of the objects. This can include a myriad of applications in field such as crowd tracking and control.
 
 ## Usage
-1. **augmentation.py** - contains the code to caluclate the IoU values and store the augmented images
-2. 
+1. **blackout.py** - contains the function to blackout the intersection of the overlapping bounding boxes.
+2. **display_box_xml.py** - contains the code to read from the xml annotations of the images and displaying the bounding boxes and logic to calculate the IoU.
+3. **augmentation.py** - contains the code to compile the functions in the above 2 python files, caluclate the IoU values and implement the blackout algorithm and store the augmented images.
+4. **duplicating_xml.py** - contains the code to duplicate the corresponding annotations of the augmented images.
+5. **split_train_test.py** - contains the code to split the dataset into train, test and validation split.
+6. **helper.py** - contains the paths to the respective folders and some helper functions.
