@@ -25,3 +25,5 @@ Therefore, Blackout can prove to be extremely useful in cases where we would wan
 
 ## Extension of FYP
 As a part of the extension, the plan is to conduct state-of-the-art comparison to compare the YOLOX model's performance with the proposed BlackOut algorithm implemented on the **YOLOv6 model, CentreNet and EfficientDet**. 
+
+Note that the 3 different models have reported their results on different datasets, for example YOLOv6 - COCO dataset etc. 
