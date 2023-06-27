@@ -8,3 +8,7 @@ Blackout is a strong augmentation technique that blacks out the intersection of 
 Through our evaluation of Blackout, it can be concluded that Blackout implemented as a standalone strong augmentation technique on larger models can result in a large increase in accuracy – a 13% increase in accuracy in the case of the state-of-the-art model You Only Live Once eXtreme – Medium sized model (YOLOX-M). Blackout can also be used as an additional augmentation along with other existing augmentations as it results in a 1% and 2% increase in accuracy in YOLOX-S and YOLOX-M respectively.
 
 Therefore, Blackout can prove to be extremely useful in cases where we would want to force the model to learn from the outlines of the objects. This can include a myriad of applications in field such as crowd tracking and control.
+
+## Usage
+1. **augmentation.py** - contains the code to caluclate the IoU values and store the augmented images
+2. 
