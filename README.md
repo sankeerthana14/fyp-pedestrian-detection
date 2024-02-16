@@ -1,7 +1,7 @@
 # Blackout - An Augmentation Technique for Occlusion Handling in Pedestrian Detection
 
 ## Abstract
-Pedestrian Detection has numerous applications, ranging from autonomous driving to traffic analysis. One inherent challenge faced in the field of pedestrian detection is the problem of occluded objects. In this project, we propose Blackout - a novel enhancement to an existing data augmentation Cutout, which tackles intraclass occlusion, where a pedestrian is blocked by another pedestrian.
+Pedestrian Detection has numerous applications, ranging from autonomous driving to traffic analysis. One inherent challenge faced in the field of pedestrian detection is the problem of occluded objects. This project proposes Blackout - a novel enhancement to an existing data augmentation Cutout, which tackles intraclass occlusion, where a pedestrian is blocked by another pedestrian.
 
 Blackout is a strong augmentation technique that blacks out the intersection of overlapping ground truth bounding boxes. It does so by computing the intersection over union of the ground truth bounding boxes present in an image and blacks out the intersection of the ground truth bounding boxes if the intersection over union values lies within the threshold range. Blackout has been evaluated on the Penn Fudan Pedestrian Detection Dataset.
 
